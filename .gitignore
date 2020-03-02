@@ -161,5 +161,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
+*.history
+.history
+.history.*
 # End of https://www.gitignore.io/api/node,macos,windows
