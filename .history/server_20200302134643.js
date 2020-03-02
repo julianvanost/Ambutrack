@@ -6,7 +6,11 @@ app.use(express.static(join(__dirname, 'public')))
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
+app.use(require('./routes'))
 
+
+
+// const PORT = 3306
 
 app.listen(process.env.PORT || 3000)
 console.log(`Application is listening`);

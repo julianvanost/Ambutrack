@@ -8,5 +8,8 @@ app.use(express.json())
 
 
 
+
+// const PORT = 3306
+
 app.listen(process.env.PORT || 3000)
 console.log(`Application is listening`);
