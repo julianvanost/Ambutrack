@@ -1,0 +1,54 @@
+.html {
+  background-color: #759dd9;
+}
+
+.jumbotron {
+  border: 1px solid #000;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loginBoldHeader {
+  font-weight: 600;
+}
+
+.display-4 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.h1, h1 {
+  /* font-size: 2.5rem; */
+} 
+.outerContainer {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.loginBoldHeader {
+  font-weight: 900;
+}
+.loginLifeStarImg {
+  width: 59px;
+  margin-top: -5rem;
+  float: right;
+}
+
+.loginInputWidths {
+  min-width: 10rem;
+  max-width: 20rem;
+}
+
+.loginLeadMessage {
+  margin-top: 1rem;
+}
+
+.loginSecondaryMessage {
+  margin-top: 2rem !important;
+  margin-bottom: -1rem;
+}
